@@ -1,3 +1,5 @@
+package io.openjob.common.actor;
+
 import akka.actor.AbstractActor;
 import lombok.extern.slf4j.Slf4j;
 import scala.PartialFunction;
