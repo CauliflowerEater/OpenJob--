@@ -1,0 +1,40 @@
+package io.openjob.server.repository.constant;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+
+@Getter
+@AllArgsConstructor
+public enum ExecuteStrategyEnum {
+    /**
+     * Discard after task.
+     */
+    DISCARD(1, "discard"),
+
+    /**
+     * Overlay before task.
+     */
+    OVERLAY(3, "overlay"),
+
+    /**
+     * Concurrency.
+     */
+    CONCURRENCY(5, "concurrency"),
+    ;
+
+    private final Integer status;
+    private final String message;
+
+    public static Boolean isDiscard(Integer value) {
+        return DISCARD
+                .getStatus()
+                .equals(value);
+    }
+
+    public static Boolean isConcurrency(Integer value) {
+        return CONCURRENCY
+                .getStatus()
+                .equals(value);
+    }
+}

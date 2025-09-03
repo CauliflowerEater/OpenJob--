@@ -5,10 +5,20 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/openjob-server/openjob-server-repository/pom.xml" />
+        <option value="$PROJECT_DIR$/openjob-server/openjob-server-common/pom.xml" />
+        <option value="$PROJECT_DIR$/openjob-server/openjob-server-cluster/pom.xml" />
+        <option value="$PROJECT_DIR$/openjob-server/openjob-server-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/openjob-server/openjob-server-alarm/pom.xml" />
+        <option value="$PROJECT_DIR$/openjob-server/openjob-server-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/openjob-server/openjob-server-dispatcher/pom.xml" />
+        <option value="$PROJECT_DIR$/openjob-server/openjob-server-log/pom.xml" />
+        <option value="$PROJECT_DIR$/openjob-server/openjob-server-openapi/pom.xml" />
+        <option value="$PROJECT_DIR$/openjob-server/openjob-server-scheduler/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_23" default="true" project-jdk-name="openjdk-23" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

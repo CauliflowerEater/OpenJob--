@@ -1,0 +1,47 @@
+package io.openjob.server.common.exception;
+
+import io.openjob.server.common.constant.BaseEnum;
+import lombok.Getter;
+
+@Getter
+public class HttpStatusException extends RuntimeException {
+
+    /**
+     * Base enum
+     */
+    private final BaseEnum baseEnum;
+
+    /**
+     * Args
+     */
+    private final Object[] args;
+
+    /**
+     * New exception
+     *
+     * @param baseEnum baseEnum
+     * @param args     args
+     * @param message  message
+     */
+    public HttpStatusException(BaseEnum baseEnum, Object[] args, String message) {
+        super(message);
+
+        this.args = args;
+        this.baseEnum = baseEnum;
+    }
+
+    /**
+     * New exception
+     *
+     * @param baseEnum baseEnum
+     * @param args     args
+     * @param message  message
+     * @param cause    cause
+     */
+    public HttpStatusException(BaseEnum baseEnum, Object[] args, String message, Throwable cause) {
+        super(message, cause);
+
+        this.args = args;
+        this.baseEnum = baseEnum;
+    }
+}

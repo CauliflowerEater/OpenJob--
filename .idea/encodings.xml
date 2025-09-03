@@ -2,6 +2,16 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/openjob-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/openjob-server/openjob-server-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/openjob-server/openjob-server-alarm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/openjob-server/openjob-server-cluster/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/openjob-server/openjob-server-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/openjob-server/openjob-server-dispatcher/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/openjob-server/openjob-server-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/openjob-server/openjob-server-openapi/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/openjob-server/openjob-server-repository/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/openjob-server/openjob-server-scheduler/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/openjob-server/openjob-server-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/openjob-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/openjob-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/openjob-worker/src/main/java" charset="UTF-8" />
