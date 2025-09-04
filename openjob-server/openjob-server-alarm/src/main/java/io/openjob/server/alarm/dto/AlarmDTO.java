@@ -1,0 +1,17 @@
+package io.openjob.server.alarm.dto;
+
+import io.openjob.server.repository.entity.AlertRule;
+import io.openjob.server.repository.entity.App;
+import io.openjob.server.repository.entity.Delay;
+import io.openjob.server.repository.entity.Job;
+import lombok.Data;
+
+
+@Data
+public class AlarmDTO {
+    private AlertRule alertRule;
+    private AlarmEventDTO event;
+    private App app;
+    private Job job;
+    private Delay delay;
+}

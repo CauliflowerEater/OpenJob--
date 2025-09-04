@@ -116,9 +116,11 @@ public abstract class BaseConsumer<T> {
                 0L,
                 TimeUnit.SECONDS,
                 new LinkedBlockingQueue<>(1),
-                r -> new Thread(r, "pull")
+                r -> new Thread(r, pollThreadName)
         );
 
+        //todo
+        //拉取线程自动恢复逻辑未实现；
         this.pullExecutor.submit(() -> {
             try {
                 while (!Thread
