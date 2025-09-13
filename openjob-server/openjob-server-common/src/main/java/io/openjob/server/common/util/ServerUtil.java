@@ -38,7 +38,7 @@ public class ServerUtil {
      * @param address address
      * @return actor
      */
-    public static ActorSelection getServerTaskMasterActor(String address) {
+    public static ActorSelection getWorkerTaskMasterActor(String address) {
         return OpenjobSpringContext
                 .getBean(ActorSystem.class)
                 .actorSelection(getWorkerActorPath(address, AkkaConstant.WORKER_ACTOR_MASTER));
@@ -50,7 +50,7 @@ public class ServerUtil {
      * @param address address
      * @return actor
      */
-    public static ActorSelection getServerDelayMasterActor(String address) {
+    public static ActorSelection getWorkerDelayMasterActor(String address) {
         return OpenjobSpringContext
                 .getBean(ActorSystem.class)
                 .actorSelection(getWorkerActorPath(address, AkkaConstant.WORKER_ACTOR_DELAY_MASTER));
