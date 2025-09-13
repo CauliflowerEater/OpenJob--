@@ -99,7 +99,7 @@ public class ClusterContext {
         return APP_WORKERS;
     }
 
-    public static List<WorkerDTO> getWorkersBuAppId(Long appId) {
+    public static List<WorkerDTO> getWorkersByAppId(Long appId) {
         return Optional
                 .ofNullable(APP_WORKERS.get(appId))
                 .orElseGet(ArrayList::new);
